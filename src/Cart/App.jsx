@@ -12,7 +12,7 @@ function App() {
   });
   const [message, setMessage] = useState('')
 
-  //箭頭函數 (item) => { return a.name === product.name }
+  //箭頭函數 (item) => { return item.name === product.name }
   //接受一個參數 item，表示 cart 陣列中的每個元素，然後檢查該元素的 name 屬性是否與傳入的 product 的 name 屬性相等。
   //如果相等，就返回 true，表示找到了匹配的商品，否則返回 false，表示沒有找到匹配的商品。
   //findIndex 方法會在陣列中找到第一個返回 true 的元素，並返回其索引。
